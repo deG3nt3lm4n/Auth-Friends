@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  background-color: #282c34;
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+/* MainHeader */
+.mainHeader{
+  width: 100%;
+  background-color:#0a111e;
+  padding: 10px;
+}
+.mainHeader h2{
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1.4px;
+}
+.mainHeader nav{
+  width: 100%;
+  padding: 10px;
+}
+.mainHeader nav ul{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mainHeader nav ul li{
+  padding: 5px;
+}
+.mainHeader nav ul li a{
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: rgb(93, 53, 4)
+}
+.mainHeader nav ul li a.active{
+  color: darkorange;
+}
