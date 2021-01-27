@@ -16,6 +16,7 @@ function Header() {
             <li>
               <NavLink to="/Friends" activeClassName="active">Friends</NavLink>
             </li>
+
           </ul>
         </nav>
     </header>
